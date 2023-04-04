@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center/cover;
+    /* background: red; */
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.con {
+    min-width: 100vh;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+}
+
+.contact {
+    width: 700px;
+    border-radius: 20px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    margin-top: 7rem !important;
+    color: white;
+    font-family: 'Poppins', sans-serif
+}
+
+.contact input {
+
+    padding: 0.7rem;
+}
+
+.name input {
+    width: 320px;
+}
+
+.names input {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#message {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.box {
+    padding: 1rem;
+}
+
+#button {
+
+    align-items: center;
+    background: blueviolet;
+}
